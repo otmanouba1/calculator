@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculator</title>
+    <link rel="stylesheet" href="calculator.css" />
+  </head>
+  <body>git 
+    <section class="container">
+
+      <div class="screen">
+        <input class="total" type="text" placeholder="0" />
+        <div class="toggle-continer">
+          <label for="Calculatrice-scientifique">cs</label>
+          <input
+            type="checkbox"
+            class="toggle"
+            onchange="largerContainer()"
+            id="Calculatrice-scientifique" />
+        </div>
+      </div>
+
+      <div class="container2">
+
+        <div class="keyword clc-normal">
+          <button>(</button>
+          <button>)</button>
+          <button>%</button>
+          <button>ac</button>
+          <button>1</button>
+          <button>2</button>
+          <button>3</button>
+          <button>&#247;</button>
+          <button>4</button>
+          <button>5</button>
+          <button>6</button>
+          <button>&#215;</button>
+          <button>7</button>
+          <button>8</button>
+          <button>9</button>
+          <button>-</button>
+          <button>0</button>
+          <button>.</button>
+          <button>+</button>
+          <button>=</button>
+        </div>
+
+        <div class="likeKeyword">
+          <button>sin</button>
+          <button>cos</button>
+          <button>tan</button>
+          <button>&sup3;</button>
+          <button>e</button>
+          <button>log</button>
+          <button> !<span>x</span></button>
+         
+          <button>&sup2;</button>
+          <button>&#8730;</button>
+        </div>
+
+      </div>
+      
+    </section>
+    <script src="calculator.js"></script>
+  </body>
+</html>
